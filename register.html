@@ -11,61 +11,60 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
 </head>
-<body>
     <!-- Navbar Start -->
     <div class="navbar-fixed">
-        <nav class="nav-extended purple lighten-3">
-            <div class="nav-wrapper">
-              <a href="index.html" class="brand-logo center">SIBO</a>
-              <a href="#" data-target="mobile-demo" class="sidenav-trigger white-text"><i class="material-icons">menu</i></a>
-              <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#"><i class="material-icons">search</i></a></li>
-                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">MXN<i class="material-icons right">arrow_drop_down</i></a></li>
-                <li><a href="register.html"><i class="material-icons">account_circle</i></a></li>
-                <li><a href="#"><i class="material-icons">shopping_cart</i></a></li>
-                <!-- Dropdown Trigger -->
-                <!-- Dropdown End -->
-                <!-- Dropdown Trigger -->
-                <ul id="dropdown1" class="dropdown-content">
-                    <li><a href="#!">MXN</a></li>
-                    <li><a href="#!">USD</a></li>
-                    <li><a href="#!">BRL</a></li>
-                    <li><a href="#!">CLP</a></li>
-                </ul>
-                <!-- Dropdown End -->
+      <nav class="nav-extended purple lighten-3">
+          <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo center">SIBO</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger white-text"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="#"><i class="material-icons">search</i></a></li>
+              <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">MXN<i class="material-icons right">arrow_drop_down</i></a></li>
+              <li><a href="login.html"><i class="material-icons">account_circle</i></a></li>
+              <li><a href="cart.html"><i class="material-icons">shopping_cart</i></a></li>
+              <!-- Dropdown Trigger -->
+              <!-- Dropdown End -->
+              <!-- Dropdown Trigger -->
+              <ul id="dropdown1" class="dropdown-content">
+                  <li><a href="#!">MXN</a></li>
+                  <li><a href="#!">USD</a></li>
+                  <li><a href="#!">BRL</a></li>
+                  <li><a href="#!">CLP</a></li>
               </ul>
-            </div>
-            <div class="nav-content">
-              <ul class="tabs tabs-transparent">
-                <li class="tab"><a href="index.html">Inicio</a></li>
-                <li class="tab"><a href="#">Belleza</a></li>
-                <li class="tab"><a href="#">Papeleria</a></li>
-                <li class="tab"><a href="#">Ropa Cool</a></li>
-              </ul>
-            </div>
-          </nav>        
-          <ul class="sidenav" id="mobile-demo">
-            <li><a href="#"><i class="material-icons">account_circle</i> Mi Cuenta</a></li>
-            <li><a href="#"><i class="material-icons">shopping_cart</i> Carrito</a></li>            
-            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">MXN<i class="material-icons right">arrow_drop_down</i></a></li>
-            <ul id="dropdown1" class="dropdown-content">
-                <li><a href="#!">MXN</a></li>
-                <li class="divider"></li>
-                <li><a href="#!">USD</a></li>
-                <li class="divider"></li>
-                <li><a href="#!">BRL</a></li>
-                <li class="divider"></li>
-                <li><a href="#!">CLP</a></li>
-                <li class="divider"></li>
+              <!-- Dropdown End -->
             </ul>
-            <li class="divider"></li>
-            <li class="tab"><a class="active" href="#">Inicio</a></li>
-            <li class="tab"><a href="#">Belleza</a></li>
-            <li class="tab"><a href="#">Papeleria</a></li>
-            <li class="tab"><a href="#">Ropa Cool</a></li>
+          </div>
+          <div class="nav-content">
+            <ul class="tabs tabs-transparent">
+              <li class="tab"><a href="index.html">Inicio</a></li>
+              <li class="tab"><a href="belleza.html">Belleza</a></li>
+              <li class="tab"><a href="papeleria.html">Papeleria</a></li>
+              <li class="tab"><a href="ropa.html">Ropa Cool</a></li>
+            </ul>
+          </div>
+        </nav>        
+        <ul class="sidenav" id="mobile-demo">
+          <li><a href="login.html"><i class="material-icons">account_circle</i> Mi Cuenta</a></li>
+          <li><a href="cart.html"><i class="material-icons">shopping_cart</i> Carrito</a></li>            
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">MXN<i class="material-icons right">arrow_drop_down</i></a></li>
+          <ul id="dropdown1" class="dropdown-content">
+              <li><a href="#!">MXN</a></li>
+              <li class="divider"></li>
+              <li><a href="#!">USD</a></li>
+              <li class="divider"></li>
+              <li><a href="#!">BRL</a></li>
+              <li class="divider"></li>
+              <li><a href="#!">CLP</a></li>
+              <li class="divider"></li>
           </ul>
-    </div>
-    <!-- Navbar End -->
+          <li class="divider"></li>
+          <li class="tab"><a href="index.html">Inicio</a></li>
+          <li class="tab"><a href="belleza.html">Belleza</a></li>
+          <li class="tab"><a href="papeleria.html">Papeleria</a></li>
+          <li class="tab"><a href="ropa.html">Ropa Cool</a></li>
+        </ul>
+  </div>
+  <!-- Navbar End -->
   <div class="container registro">
     <div class="section">
       <div class="row">
@@ -96,7 +95,12 @@
                     <i class="material-icons right">send</i>
                   </button>
               </div>
-          </div>
+          </div>          
+          <div class="row">
+            <div class="col s12">
+              <p>Ya estás registrado? <a href="login.html">Iniciar Sesión.</a></p>
+            </div>
+          </div> 
         </form>
       </div>      
     </div>
